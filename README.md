@@ -16,7 +16,7 @@ This project provides a custom General Purpose Input/Output (GPIO) driver for th
 
 - **stm32l476xx.h**: Core definitions for the STM32L476xx family, including memory addresses for GPIO registers, clock management, and peripheral access【14†source】.
 - **stm32l476xx_gpio.h**: GPIO-specific definitions and functions. It includes structures for pin configuration and functions for GPIO initialization, de-initialization, pin read/write operations, and interrupt handling【13†source】.
-- **main.c**: This file contains the implementation of the GPIO driver, including initialization, de-initialization, pin read/write, and interrupt configurations. It provides the core functions for interacting with GPIO peripherals and controlling pin states dynamically.
+- **stm32l476xx_gpio.c**: This file contains the implementation of the GPIO driver, including initialization, de-initialization, pin read/write, and interrupt configurations. It provides the core functions for interacting with GPIO peripherals and controlling pin states dynamically.
 
 ## File Descriptions
 
